@@ -1,9 +1,13 @@
+package takenTest.theorie;
+
 import be.vdab.theorie.Jaar;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class JaarTest {
     @Test
+    @DisplayName("Een jaar deelbaar door 400 Is Een Schrikkeljaar") // deze manier kan je documentatie lezen.*Specificeert de naam van de testadministratie.
     void eenJaarDeelbaarDoor400IsEenSchrikkeljaar() {
         Jaar jaar = new Jaar(2000);
         assertThat(jaar.isSchrikkeljaar()).isTrue();

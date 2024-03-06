@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/Main.java" afterDir="false" />
+    <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="2.dag Junit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JaarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/theorie/JaarTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +28,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2dGbsFMO2NslAunRemldYlTDjyw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,11 +39,15 @@
   "keyToString": {
     "Application.Jaar.executor": "Run",
     "Application.Main.executor": "Run",
+    "JUnit.ConverterTest.executor": "Run",
     "JUnit.JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkeljaar.executor": "Run",
     "JUnit.JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkeljaar.executor": "Run",
     "JUnit.JaarTest.eenJaarDeelbaarDoor4IsEenSchrikkeljaar.executor": "Run",
     "JUnit.JaarTest.executor": "Run",
     "JUnit.JaarTest.toStringGeeftHetJaarAlsTekst.executor": "Run",
+    "JUnit.RechthoekTest.executor": "Run",
+    "JUnit.WoordTest.executor": "Run",
+    "JUnit.WoordTest.legeWoordİsPalindroom.executor": "Run",
     "Maven.Theorie [install].executor": "Run",
     "Maven.Theorie [site].executor": "Run",
     "Maven.Theorie [test].executor": "Run",
@@ -56,11 +58,48 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.JaarTest">
+  <component name="RunManager" selected="JUnit.ConverterTest.tweeHonderdInchesIs508Centimeters">
+    <configuration name="ConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest.theorie" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.ConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConverterTest.tweeHonderdInchesIs508Centimeters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest.theorie" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.ConverterTest" />
+      <option name="METHOD_NAME" value="tweeHonderdInchesIs508Centimeters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JaarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JaarTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest.theorie" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.JaarTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,8 +107,14 @@
     </configuration>
     <configuration name="JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkeljaar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JaarTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest.theorie" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.JaarTest" />
       <option name="METHOD_NAME" value="eenJaarDeelbaarDoor100IsGeenSchrikkeljaar" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -78,29 +123,15 @@
     </configuration>
     <configuration name="JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkeljaar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JaarTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest.theorie" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.JaarTest" />
       <option name="METHOD_NAME" value="eenJaarDeelbaarDoor400IsEenSchrikkeljaar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JaarTest.eenJaarDeelbaarDoor4IsEenSchrikkeljaar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Theorie" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JaarTest" />
-      <option name="METHOD_NAME" value="eenJaarDeelbaarDoor4IsEenSchrikkeljaar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JaarTest.toStringGeeftHetJaarAlsTekst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Theorie" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JaarTest" />
-      <option name="METHOD_NAME" value="toStringGeeftHetJaarAlsTekst" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,9 +139,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConverterTest.tweeHonderdInchesIs508Centimeters" />
+        <item itemvalue="JUnit.ConverterTest" />
         <item itemvalue="JUnit.JaarTest" />
-        <item itemvalue="JUnit.JaarTest.toStringGeeftHetJaarAlsTekst" />
-        <item itemvalue="JUnit.JaarTest.eenJaarDeelbaarDoor4IsEenSchrikkeljaar" />
         <item itemvalue="JUnit.JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkeljaar" />
         <item itemvalue="JUnit.JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkeljaar" />
       </list>
@@ -132,6 +163,19 @@
       <option name="presentableId" value="Default" />
       <updated>1709637569086</updated>
     </task>
+    <task id="LOCAL-00001" summary="2.dag Junit">
+      <option name="closed" value="true" />
+      <created>1709711187430</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709711187432</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2.dag Junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.dag Junit" />
   </component>
 </project>
