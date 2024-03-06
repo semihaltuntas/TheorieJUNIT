@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="2.dag Junit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JaarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/theorie/JaarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/theorie/ConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/theorie/ConverterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -40,26 +42,47 @@
     "Application.Jaar.executor": "Run",
     "Application.Main.executor": "Run",
     "JUnit.ConverterTest.executor": "Run",
+    "JUnit.ConverterTest.tweeHonderdInchesIs508Centimeters.executor": "Run",
     "JUnit.JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkeljaar.executor": "Run",
     "JUnit.JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkeljaar.executor": "Run",
     "JUnit.JaarTest.eenJaarDeelbaarDoor4IsEenSchrikkeljaar.executor": "Run",
     "JUnit.JaarTest.executor": "Run",
     "JUnit.JaarTest.toStringGeeftHetJaarAlsTekst.executor": "Run",
     "JUnit.RechthoekTest.executor": "Run",
+    "JUnit.RekeningTest.executor": "Run",
+    "JUnit.RekeningTest.hetSaldoVanEenNieuweRekeningIs0€.executor": "Run",
+    "JUnit.RekeningTest.nadatJe10€En1€StortHetSaldo11€.executor": "Run",
+    "JUnit.RekeningTest.nadatJe10€StortIsHetSaldo10€.executor": "Run",
+    "JUnit.VeilingTest.executor": "Run",
+    "JUnit.VeilingTest.naEenBodVan10€IsHetHoogsteBod10€.executor": "Run",
+    "JUnit.VeilingTest.naEenBodVan15€IsHetHooogsteBod13€.executor": "Run",
     "JUnit.WoordTest.executor": "Run",
     "JUnit.WoordTest.legeWoordİsPalindroom.executor": "Run",
+    "JUnit.taak3ArtikelTest.prijsExclusief30enBtwPercentage6Moet31komma8PrijsInclusiefZijn.executor": "Run",
     "Maven.Theorie [install].executor": "Run",
     "Maven.Theorie [site].executor": "Run",
     "Maven.Theorie [test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ConverterTest.tweeHonderdInchesIs508Centimeters">
-    <configuration name="ConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="takenTest.taak4VeilingTest" />
+      <recent name="takenTest.theorie" />
+      <recent name="be.vdab.theorie" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.VeilingTest.naEenBodVan15€IsHetHooogsteBod13€">
+    <configuration name="RekeningTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
@@ -68,13 +91,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="takenTest.theorie" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.ConverterTest" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.RekeningTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConverterTest.tweeHonderdInchesIs508Centimeters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RekeningTest.nadatJe10€En1€StortHetSaldo11€" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
@@ -83,55 +106,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="takenTest.theorie" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.ConverterTest" />
-      <option name="METHOD_NAME" value="tweeHonderdInchesIs508Centimeters" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.RekeningTest" />
+      <option name="METHOD_NAME" value="nadatJe10€En1€StortHetSaldo11€" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JaarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VeilingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="PATTERN" value="takenTest.taak4VeilingTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="takenTest.theorie" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.JaarTest" />
+      <option name="PACKAGE_NAME" value="takenTest.taak4VeilingTest" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.taak4VeilingTest.VeilingTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkeljaar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VeilingTest.naEenBodVan10€IsHetHoogsteBod10€" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="PATTERN" value="takenTest.taak4VeilingTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="takenTest.theorie" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.JaarTest" />
-      <option name="METHOD_NAME" value="eenJaarDeelbaarDoor100IsGeenSchrikkeljaar" />
+      <option name="PACKAGE_NAME" value="takenTest.taak4VeilingTest" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.taak4VeilingTest.VeilingTest" />
+      <option name="METHOD_NAME" value="naEenBodVan10€IsHetHoogsteBod10€" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkeljaar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VeilingTest.naEenBodVan15€IsHetHooogsteBod13€" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="PATTERN" value="takenTest.taak4VeilingTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="takenTest.theorie" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.JaarTest" />
-      <option name="METHOD_NAME" value="eenJaarDeelbaarDoor400IsEenSchrikkeljaar" />
+      <option name="PACKAGE_NAME" value="takenTest.taak4VeilingTest" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.taak4VeilingTest.VeilingTest" />
+      <option name="METHOD_NAME" value="naEenBodVan15€IsHetHooogsteBod13€" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConverterTest.tweeHonderdInchesIs508Centimeters" />
-        <item itemvalue="JUnit.ConverterTest" />
-        <item itemvalue="JUnit.JaarTest" />
-        <item itemvalue="JUnit.JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkeljaar" />
-        <item itemvalue="JUnit.JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkeljaar" />
+        <item itemvalue="JUnit.VeilingTest.naEenBodVan15€IsHetHooogsteBod13€" />
+        <item itemvalue="JUnit.VeilingTest" />
+        <item itemvalue="JUnit.VeilingTest.naEenBodVan10€IsHetHoogsteBod10€" />
+        <item itemvalue="JUnit.RekeningTest" />
+        <item itemvalue="JUnit.RekeningTest.nadatJe10€En1€StortHetSaldo11€" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709711187432</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2.dag Junit">
+      <option name="closed" value="true" />
+      <created>1709714817269</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709714817269</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
