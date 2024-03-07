@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="2.dag Junit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/theorie/ConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/theorie/ConverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak2Rechthoek/Rechthoek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak2Rechthoek/Rechthoek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Jaar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Jaar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Rekening.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Rekening.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/taak2RechthoekTest/RechthoekTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/taak2RechthoekTest/RechthoekTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/taak4VeilingTest/VeilingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/taak4VeilingTest/VeilingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/theorie/JaarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/theorie/JaarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/theorie/RekeningTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/theorie/RekeningTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +47,27 @@
     "Application.Main.executor": "Run",
     "JUnit.ConverterTest.executor": "Run",
     "JUnit.ConverterTest.tweeHonderdInchesIs508Centimeters.executor": "Run",
+    "JUnit.JaarTest.deHashCodeVanGelijkeJarenIsGelijk.executor": "Run",
     "JUnit.JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkeljaar.executor": "Run",
     "JUnit.JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkeljaar.executor": "Run",
     "JUnit.JaarTest.eenJaarDeelbaarDoor4IsEenSchrikkeljaar.executor": "Run",
     "JUnit.JaarTest.executor": "Run",
+    "JUnit.JaarTest.jarenMetEenVerschillendJaartalZijnGelijk.executor": "Run",
     "JUnit.JaarTest.toStringGeeftHetJaarAlsTekst.executor": "Run",
+    "JUnit.RechthoekTest.deHashCodeVanGelijke.executor": "Run",
+    "JUnit.RechthoekTest.deLengteKanNietKleinerDanBreedteZijn.executor": "Run",
+    "JUnit.RechthoekTest.eenNegatieveBreedteKanNietZijn.executor": "Run",
+    "JUnit.RechthoekTest.eenNegatieveLengteNietZijn.executor": "Run",
     "JUnit.RechthoekTest.executor": "Run",
+    "JUnit.RechthoekTest.rechthoekEenHetzelfdeParameters.executor": "Run",
+    "JUnit.RechthoekTest.rechthoekEenVerschillendeParameters.executor": "Run",
     "JUnit.RekeningTest.executor": "Run",
+    "JUnit.RekeningTest.hetGestortBedragMagNietNegatifZijn.executor": "Run",
+    "JUnit.RekeningTest.hetGestorteBedragMagNietNullZijn.executor": "Run",
     "JUnit.RekeningTest.hetSaldoVanEenNieuweRekeningIs0€.executor": "Run",
     "JUnit.RekeningTest.nadatJe10€En1€StortHetSaldo11€.executor": "Run",
     "JUnit.RekeningTest.nadatJe10€StortIsHetSaldo10€.executor": "Run",
+    "JUnit.RekeningTest.stortMetNullKanNiet.executor": "Run",
     "JUnit.VeilingTest.executor": "Run",
     "JUnit.VeilingTest.naEenBodVan10€IsHetHoogsteBod10€.executor": "Run",
     "JUnit.VeilingTest.naEenBodVan15€IsHetHooogsteBod13€.executor": "Run",
@@ -76,85 +91,86 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="takenTest.taak4VeilingTest" />
       <recent name="takenTest.theorie" />
+      <recent name="takenTest.taak4VeilingTest" />
       <recent name="be.vdab.theorie" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VeilingTest.naEenBodVan15€IsHetHooogsteBod13€">
-    <configuration name="RekeningTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RechthoekTest">
+    <configuration name="RechthoekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="PATTERN" value="takenTest.taak2RechthoekTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="takenTest.theorie" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.RekeningTest" />
+      <option name="PACKAGE_NAME" value="takenTest.taak2RechthoekTest" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.taak2RechthoekTest.RechthoekTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RekeningTest.nadatJe10€En1€StortHetSaldo11€" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RechthoekTest.deHashCodeVanGelijke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="PATTERN" value="takenTest.taak2RechthoekTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="takenTest.theorie" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.RekeningTest" />
-      <option name="METHOD_NAME" value="nadatJe10€En1€StortHetSaldo11€" />
+      <option name="PACKAGE_NAME" value="takenTest.taak2RechthoekTest" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.taak2RechthoekTest.RechthoekTest" />
+      <option name="METHOD_NAME" value="deHashCodeVanGelijke" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VeilingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RechthoekTest.deLengteKanNietKleinerDanBreedteZijn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="takenTest.taak4VeilingTest.*" />
+          <option name="PATTERN" value="takenTest.taak2RechthoekTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="takenTest.taak4VeilingTest" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.taak4VeilingTest.VeilingTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VeilingTest.naEenBodVan10€IsHetHoogsteBod10€" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Theorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="takenTest.taak4VeilingTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="takenTest.taak4VeilingTest" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.taak4VeilingTest.VeilingTest" />
-      <option name="METHOD_NAME" value="naEenBodVan10€IsHetHoogsteBod10€" />
+      <option name="PACKAGE_NAME" value="takenTest.taak2RechthoekTest" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.taak2RechthoekTest.RechthoekTest" />
+      <option name="METHOD_NAME" value="deLengteKanNietKleinerDanBreedteZijn" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VeilingTest.naEenBodVan15€IsHetHooogsteBod13€" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RechthoekTest.eenNegatieveBreedteKanNietZijn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="takenTest.taak4VeilingTest.*" />
+          <option name="PATTERN" value="takenTest.taak2RechthoekTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="takenTest.taak4VeilingTest" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.taak4VeilingTest.VeilingTest" />
-      <option name="METHOD_NAME" value="naEenBodVan15€IsHetHooogsteBod13€" />
+      <option name="PACKAGE_NAME" value="takenTest.taak2RechthoekTest" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.taak2RechthoekTest.RechthoekTest" />
+      <option name="METHOD_NAME" value="eenNegatieveBreedteKanNietZijn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RechthoekTest.eenNegatieveLengteNietZijn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.taak2RechthoekTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest.taak2RechthoekTest" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.taak2RechthoekTest.RechthoekTest" />
+      <option name="METHOD_NAME" value="eenNegatieveLengteNietZijn" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VeilingTest.naEenBodVan15€IsHetHooogsteBod13€" />
-        <item itemvalue="JUnit.VeilingTest" />
-        <item itemvalue="JUnit.VeilingTest.naEenBodVan10€IsHetHoogsteBod10€" />
-        <item itemvalue="JUnit.RekeningTest" />
-        <item itemvalue="JUnit.RekeningTest.nadatJe10€En1€StortHetSaldo11€" />
+        <item itemvalue="JUnit.RechthoekTest" />
+        <item itemvalue="JUnit.RechthoekTest.deHashCodeVanGelijke" />
+        <item itemvalue="JUnit.RechthoekTest.deLengteKanNietKleinerDanBreedteZijn" />
+        <item itemvalue="JUnit.RechthoekTest.eenNegatieveBreedteKanNietZijn" />
+        <item itemvalue="JUnit.RechthoekTest.eenNegatieveLengteNietZijn" />
       </list>
     </recent_temporary>
   </component>
@@ -202,11 +218,30 @@
       <option name="project" value="LOCAL" />
       <updated>1709714817269</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2.dag Junit">
+      <option name="closed" value="true" />
+      <created>1709727074512</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709727074513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2.dag Junit" />
     <option name="LAST_COMMIT_MESSAGE" value="2.dag Junit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/takenTest/theorie/RekeningTest.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
