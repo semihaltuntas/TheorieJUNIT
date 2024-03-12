@@ -25,15 +25,16 @@ class RekeningTest {
 
     @Test
     void nadatJe10€StortIsHetSaldo10€() {
-        rekening.stort(BigDecimal.TEN);
-        assertThat(rekening.getSaldo()).isEqualByComparingTo("10");
+       rekening.stort(BigDecimal.TEN);
+       assertThat(rekening.getSaldo()).isEqualByComparingTo("10");
     }
 
     @Test
     void nadatJe10€En1€StortHetSaldo11€() {
         rekening.stort(BigDecimal.TEN);
         rekening.stort(BigDecimal.ONE);
-        assertThat(rekening.getSaldo()).isEqualByComparingTo("11");
+        rekening.stort(BigDecimal.valueOf(9));
+        assertThat(rekening.getSaldo()).isEqualByComparingTo("20");
     }
 
     @Test

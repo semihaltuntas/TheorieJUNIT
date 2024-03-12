@@ -43,7 +43,7 @@ public class JaarTest {
 
     @Test
     void jarenMetEenVerschillendJaartalZijnGelijk() {
-        assertThat(new Jaar(2013)).isEqualTo(new Jaar(2016));
+        assertThat(new Jaar(2013)).isNotEqualTo(new Jaar(2016));
     }
 
     //Hashcode control

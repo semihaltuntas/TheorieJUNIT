@@ -1,11 +1,9 @@
 package takenTest.taak3ArtikelTest;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
 import be.vdab.taken.taak3Artikel.Artikel;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import java.math.BigDecimal;
 
 public class ArtikelTest {

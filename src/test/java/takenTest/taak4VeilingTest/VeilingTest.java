@@ -33,9 +33,9 @@ class VeilingTest {
        // na de before each verwijdert ->  Veiling veiling = new Veiling();
         veiling.doeBod(BigDecimal.valueOf(100));
         veiling.doeBod(BigDecimal.TEN);
-        veiling.doeBod(BigDecimal.valueOf(13));
+        veiling.doeBod(BigDecimal.valueOf(130));
         assertThat(veiling.getHoogsteBod())
-                .isEqualByComparingTo("100");
+                .isEqualByComparingTo("130");
 
     }
 

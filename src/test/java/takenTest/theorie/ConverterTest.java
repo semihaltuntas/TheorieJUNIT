@@ -16,4 +16,9 @@ public class ConverterTest {
         assertThat(new Converter().inchesNaarCentimeters(BigDecimal.valueOf(200)))
                 .isEqualByComparingTo("508");
     }
+    @Test
+    void hondredInches254Centimeters(){
+        assertThat(new Converter().inchesNaarCentimeters(BigDecimal.valueOf(100)))
+                .isEqualByComparingTo("254");
+    }
 }
