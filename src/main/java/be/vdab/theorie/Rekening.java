@@ -1,6 +1,7 @@
 package be.vdab.theorie;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 public class Rekening {
     private BigDecimal saldo = BigDecimal.ZERO;
@@ -13,5 +14,12 @@ public class Rekening {
 
     public BigDecimal getSaldo() {
         return saldo;
+    }
+
+    public List<BigDecimal> getStortingen(){
+        throw new UnsupportedOperationException();
+    }
+    public List<BigDecimal> getStortingenGesorteerd(){
+        throw new UnsupportedOperationException();
     }
 }
