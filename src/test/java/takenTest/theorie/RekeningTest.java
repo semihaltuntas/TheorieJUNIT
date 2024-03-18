@@ -1,9 +1,6 @@
 package takenTest.theorie;
 
 import be.vdab.theorie.Rekening;
-import jdk.incubator
-         .vector.Vector;
-import jdk.incubator.vector.VectorOperators;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
