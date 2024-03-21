@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="4.dag Junit">
+    <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="4.dag Junit als ziek1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/theorie/RekeningTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/theorie/RekeningTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak5ISBN/Isbn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak5ISBN/Isbn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,7 @@
     "JUnit.ConverterTest.executor": "Run",
     "JUnit.ConverterTest.hondredInches254Centimeters.executor": "Run",
     "JUnit.ConverterTest.tweeHonderdInchesIs508Centimeters.executor": "Run",
+    "JUnit.IsbnTest.executor": "Run",
     "JUnit.IsbnTest.hetNummer0IsVerkeerd.executor": "Run",
     "JUnit.JaarTest.deHashCodeVanGelijkeJarenIsGelijk.executor": "Run",
     "JUnit.JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkeljaar.executor": "Run",
@@ -109,7 +110,22 @@
       <recent name="be.vdab.theorie" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IsbnTest.hetNummer0IsVerkeerd">
+  <component name="RunManager" selected="JUnit.IsbnTest">
+    <configuration name="IsbnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.taak5ISBN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest.taak5ISBN" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.taak5ISBN.IsbnTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IsbnTest.hetNummer0IsVerkeerd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
@@ -121,22 +137,6 @@
       <option name="PACKAGE_NAME" value="takenTest.taak5ISBN" />
       <option name="MAIN_CLASS_NAME" value="takenTest.taak5ISBN.IsbnTest" />
       <option name="METHOD_NAME" value="hetNummer0IsVerkeerd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RekeningTest.eenNieuweRekeningHeeftGeenStortingen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Theorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="takenTest.theorie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="takenTest.theorie" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.RekeningTest" />
-      <option name="METHOD_NAME" value="eenNieuweRekeningHeeftGeenStortingen" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -192,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IsbnTest" />
         <item itemvalue="JUnit.IsbnTest.hetNummer0IsVerkeerd" />
         <item itemvalue="JUnit.RekeningTest.nadatJe10€StortIsErEenStortingVan10€" />
         <item itemvalue="JUnit.RekeningTest.nadatJe10€En1€En2€StortZijnDeStortingenGesorteerd1€En2€En10€" />
         <item itemvalue="JUnit.RekeningTest.nadatJe10€En1€StortZijnDeStortingen10€En1€" />
-        <item itemvalue="JUnit.RekeningTest.eenNieuweRekeningHeeftGeenStortingen" />
       </list>
     </recent_temporary>
   </component>
@@ -272,14 +272,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710779716261</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="4.dag Junit als ziek1">
+      <option name="closed" value="true" />
+      <created>1711032211273</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711032211274</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2.dag Junit" />
     <MESSAGE value="3.dag Junit" />
     <MESSAGE value="4.dag Junit" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.dag Junit" />
+    <MESSAGE value="4.dag Junit als ziek1" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.dag Junit als ziek1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
