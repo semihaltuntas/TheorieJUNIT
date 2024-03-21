@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="4.dag Junit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Rekening.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Rekening.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Statistiek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Statistiek.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/theorie/RekeningTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/theorie/RekeningTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/theorie/StatistiekTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/theorie/StatistiekTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,7 @@
     "JUnit.ConverterTest.executor": "Run",
     "JUnit.ConverterTest.hondredInches254Centimeters.executor": "Run",
     "JUnit.ConverterTest.tweeHonderdInchesIs508Centimeters.executor": "Run",
+    "JUnit.IsbnTest.hetNummer0IsVerkeerd.executor": "Run",
     "JUnit.JaarTest.deHashCodeVanGelijkeJarenIsGelijk.executor": "Run",
     "JUnit.JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkeljaar.executor": "Run",
     "JUnit.JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkeljaar.executor": "Run",
@@ -61,21 +59,26 @@
     "JUnit.RechthoekTest.executor": "Run",
     "JUnit.RechthoekTest.rechthoekEenHetzelfdeParameters.executor": "Run",
     "JUnit.RechthoekTest.rechthoekEenVerschillendeParameters.executor": "Run",
+    "JUnit.RekeningTest.eenNieuweRekeningHeeftGeenStortingen.executor": "Run",
     "JUnit.RekeningTest.executor": "Run",
     "JUnit.RekeningTest.hetGestortBedragMagNietNegatifZijn.executor": "Run",
     "JUnit.RekeningTest.hetGestorteBedragMagNietNullZijn.executor": "Run",
     "JUnit.RekeningTest.hetSaldoVanEenNieuweRekeningIs0€.executor": "Run",
+    "JUnit.RekeningTest.nadatJe10€En1€En2€StortZijnDeStortingenGesorteerd1€En2€En10€.executor": "Run",
     "JUnit.RekeningTest.nadatJe10€En1€StortHetSaldo11€.executor": "Run",
     "JUnit.RekeningTest.nadatJe10€En1€StortZijnDeStortingen10€En1€.executor": "Run",
+    "JUnit.RekeningTest.nadatJe10€StortIsErEenStortingVan10€.executor": "Run",
     "JUnit.RekeningTest.nadatJe10€StortIsHetSaldo10€.executor": "Run",
     "JUnit.RekeningTest.stortMetNullKanNiet.executor": "Run",
     "JUnit.RekeningnummerTest.BE02063588295840IsCorrect.executor": "Run",
     "JUnit.RekeningnummerTest.BE72091012240115BevatEenVerkeerdeControleBerekening.executor": "Run",
     "JUnit.RekeningnummerTest.executor": "Run",
     "JUnit.RekeningnummerTest.leegNummerIsVerkeerd.executor": "Run",
+    "JUnit.StatistiekTest.eenArrayElementMagNietNullBevatten.executor": "Run",
     "JUnit.StatistiekTest.executor": "Run",
     "JUnit.StatistiekTest.hetGemiddeldeVan0EnIs5.executor": "Run",
     "JUnit.StatistiekTest.hetGemiddeldeVan70EnIs35.executor": "Run",
+    "JUnit.StatistiekTest.hetGemiddeldeVanNullKanJeNietBerekenen.executor": "Run",
     "JUnit.VeilingTest.executor": "Run",
     "JUnit.VeilingTest.naEenBodVan10€IsHetHoogsteBod10€.executor": "Run",
     "JUnit.VeilingTest.naEenBodVan15€IsHetHooogsteBod13€.executor": "Run",
@@ -100,12 +103,29 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="takenTest.taak5ISBN" />
       <recent name="takenTest.theorie" />
       <recent name="takenTest.taak4VeilingTest" />
       <recent name="be.vdab.theorie" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RekeningTest.eenNieuweRekeningHeeftGeenStortingen">
+  <component name="RunManager" selected="JUnit.IsbnTest.hetNummer0IsVerkeerd">
+    <configuration name="IsbnTest.hetNummer0IsVerkeerd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.taak5ISBN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest.taak5ISBN" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.taak5ISBN.IsbnTest" />
+      <option name="METHOD_NAME" value="hetNummer0IsVerkeerd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RekeningTest.eenNieuweRekeningHeeftGeenStortingen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
@@ -117,6 +137,22 @@
       <option name="PACKAGE_NAME" value="takenTest.theorie" />
       <option name="MAIN_CLASS_NAME" value="takenTest.theorie.RekeningTest" />
       <option name="METHOD_NAME" value="eenNieuweRekeningHeeftGeenStortingen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RekeningTest.nadatJe10€En1€En2€StortZijnDeStortingenGesorteerd1€En2€En10€" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest.theorie" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.RekeningTest" />
+      <option name="METHOD_NAME" value="nadatJe10€En1€En2€StortZijnDeStortingenGesorteerd1€En2€En10€" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,7 +174,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RekeningTest.stortMetNullKanNiet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RekeningTest.nadatJe10€StortIsErEenStortingVan10€" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
@@ -148,39 +184,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="takenTest.theorie" />
       <option name="MAIN_CLASS_NAME" value="takenTest.theorie.RekeningTest" />
-      <option name="METHOD_NAME" value="stortMetNullKanNiet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StatistiekTest.hetGemiddeldeVan0EnIs5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Theorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="takenTest.theorie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="takenTest.theorie" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.StatistiekTest" />
-      <option name="METHOD_NAME" value="hetGemiddeldeVan0EnIs5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StatistiekTest.hetGemiddeldeVan70EnIs35" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Theorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="takenTest.theorie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="takenTest.theorie" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.StatistiekTest" />
-      <option name="METHOD_NAME" value="hetGemiddeldeVan70EnIs35" />
+      <option name="METHOD_NAME" value="nadatJe10€StortIsErEenStortingVan10€" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RekeningTest.eenNieuweRekeningHeeftGeenStortingen" />
-        <item itemvalue="JUnit.RekeningTest.stortMetNullKanNiet" />
+        <item itemvalue="JUnit.IsbnTest.hetNummer0IsVerkeerd" />
+        <item itemvalue="JUnit.RekeningTest.nadatJe10€StortIsErEenStortingVan10€" />
+        <item itemvalue="JUnit.RekeningTest.nadatJe10€En1€En2€StortZijnDeStortingenGesorteerd1€En2€En10€" />
         <item itemvalue="JUnit.RekeningTest.nadatJe10€En1€StortZijnDeStortingen10€En1€" />
-        <item itemvalue="JUnit.StatistiekTest.hetGemiddeldeVan70EnIs35" />
-        <item itemvalue="JUnit.StatistiekTest.hetGemiddeldeVan0EnIs5" />
+        <item itemvalue="JUnit.RekeningTest.eenNieuweRekeningHeeftGeenStortingen" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +256,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710240404751</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="4.dag Junit">
+      <option name="closed" value="true" />
+      <created>1710482800102</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710482800102</updated>
+    </task>
+    <task id="LOCAL-00007" summary="4.dag Junit">
+      <option name="closed" value="true" />
+      <created>1710779716261</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710779716261</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

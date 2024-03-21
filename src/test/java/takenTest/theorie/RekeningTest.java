@@ -66,6 +66,7 @@ class RekeningTest {
 
     @Test
     void nadatJe10€StortIsErEenStortingVan10€() {
+        rekening.stort(BigDecimal.TEN);
         assertThat(rekening.getStortingen()).containsOnly(BigDecimal.TEN);
     }
 
