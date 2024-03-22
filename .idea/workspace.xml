@@ -7,6 +7,7 @@
     <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="4.dag Junit als ziek1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak5ISBN/Isbn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak5ISBN/Isbn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/theorie/RekeningnummerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/theorie/RekeningnummerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +74,7 @@
     "JUnit.RekeningTest.stortMetNullKanNiet.executor": "Run",
     "JUnit.RekeningnummerTest.BE02063588295840IsCorrect.executor": "Run",
     "JUnit.RekeningnummerTest.BE72091012240115BevatEenVerkeerdeControleBerekening.executor": "Run",
+    "JUnit.RekeningnummerTest.correcteNummers.executor": "Run",
     "JUnit.RekeningnummerTest.executor": "Run",
     "JUnit.RekeningnummerTest.leegNummerIsVerkeerd.executor": "Run",
     "JUnit.StatistiekTest.eenArrayElementMagNietNullBevatten.executor": "Run",
@@ -110,7 +112,7 @@
       <recent name="be.vdab.theorie" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IsbnTest">
+  <component name="RunManager" selected="JUnit.RekeningnummerTest.verkeerdeNummers">
     <configuration name="IsbnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
@@ -142,38 +144,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RekeningTest.nadatJe10€En1€En2€StortZijnDeStortingenGesorteerd1€En2€En10€" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Theorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="takenTest.theorie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="takenTest.theorie" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.RekeningTest" />
-      <option name="METHOD_NAME" value="nadatJe10€En1€En2€StortZijnDeStortingenGesorteerd1€En2€En10€" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RekeningTest.nadatJe10€En1€StortZijnDeStortingen10€En1€" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Theorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="takenTest.theorie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="takenTest.theorie" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.RekeningTest" />
-      <option name="METHOD_NAME" value="nadatJe10€En1€StortZijnDeStortingen10€En1€" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RekeningTest.nadatJe10€StortIsErEenStortingVan10€" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
@@ -190,13 +160,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RekeningnummerTest.correcteNummers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest.theorie" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.RekeningnummerTest" />
+      <option name="METHOD_NAME" value="correcteNummers(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RekeningnummerTest.verkeerdeNummers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest.theorie" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.RekeningnummerTest" />
+      <option name="METHOD_NAME" value="verkeerdeNummers(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RekeningnummerTest.verkeerdeNummers" />
+        <item itemvalue="JUnit.RekeningnummerTest.correcteNummers" />
         <item itemvalue="JUnit.IsbnTest" />
         <item itemvalue="JUnit.IsbnTest.hetNummer0IsVerkeerd" />
         <item itemvalue="JUnit.RekeningTest.nadatJe10€StortIsErEenStortingVan10€" />
-        <item itemvalue="JUnit.RekeningTest.nadatJe10€En1€En2€StortZijnDeStortingenGesorteerd1€En2€En10€" />
-        <item itemvalue="JUnit.RekeningTest.nadatJe10€En1€StortZijnDeStortingen10€En1€" />
       </list>
     </recent_temporary>
   </component>
@@ -301,15 +303,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/takenTest/theorie/RekeningnummerTest.java</url>
-          <line>21</line>
-          <properties class="takenTest.theorie.RekeningnummerTest" method="BE02063588295840IsCorrect">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
