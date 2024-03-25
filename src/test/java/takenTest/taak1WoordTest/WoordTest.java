@@ -12,12 +12,14 @@ public class WoordTest {
     void lepelİsPalindroom(){
         assertThat(new Woord("lepel").isPalindroom()).isTrue();
     }
+
     @Test
     void semihİsPalindroom(){
         assertThat(new Woord("semih").isPalindroom()).isFalse();
     }
+
     @Test
     void legeWoordİsPalindroom(){
-        assertThat(new Woord("").isPalindroom()).isFalse();
+        assertThat(new Woord("asd").isPalindroom()).isFalse();
     }
 }

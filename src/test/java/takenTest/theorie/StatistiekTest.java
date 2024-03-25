@@ -2,7 +2,9 @@ package takenTest.theorie;
 
 import be.vdab.theorie.Statistiek;
 import org.junit.jupiter.api.Test;
+
 import java.math.BigDecimal;
+
 import static org.assertj.core.api.Assertions.*;
 
 class StatistiekTest {
