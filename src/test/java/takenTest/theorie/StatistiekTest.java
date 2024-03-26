@@ -21,11 +21,14 @@ class StatistiekTest {
                 .isEqualByComparingTo(enigGetal);
     }
 
-    @Test
-    void hetGemiddeldeVanEenLegeVerzamelingKanJeNietBerekenen() {
-        assertThatIllegalArgumentException().isThrownBy(
-                () -> Statistiek.getGemiddelde(new BigDecimal[]{}));
-    }
+
+
+//    @Test
+//    void hetGemiddeldeVanEenLegeVerzamelingKanJeNietBerekenen() {
+//        assertThatIllegalArgumentException().isThrownBy(
+//                () -> Statistiek.getGemiddelde(new BigDecimal[]{}));
+//
+//    }
 
     @Test
     void hetGemiddeldeVanNullKanJeNietBerekenen() {

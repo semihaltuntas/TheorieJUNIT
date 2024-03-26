@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="4.dag Junit als ziek1">
+    <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="5.dag Junit als ziek1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Statistiek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/Statistiek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/taak1WoordTest/WoordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/taak1WoordTest/WoordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/PersonenCSVMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/PersonenCSVMaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/theorie/StatistiekTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/theorie/StatistiekTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -41,6 +40,8 @@
   "keyToString": {
     "Application.Jaar.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.PersonenCSVMaker.executor": "Run",
+    "Application.Voorbeeld.executor": "Run",
     "JUnit.All in Theorie.executor": "Run",
     "JUnit.ConverterTest.executor": "Run",
     "JUnit.ConverterTest.hondredInches254Centimeters.executor": "Run",
@@ -57,6 +58,8 @@
     "JUnit.JaarTest.jarenMetEenVerschillendJaartalZijnGelijk.executor": "Run",
     "JUnit.JaarTest.jarenMetHetzelfdeJaartalZijnGelijk.executor": "Run",
     "JUnit.JaarTest.toStringGeeftHetJaarAlsTekst.executor": "Run",
+    "JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief.executor": "Run",
+    "JUnit.PersoonServiceTest.executor": "Run",
     "JUnit.RechthoekTest.deHashCodeVanGelijke.executor": "Run",
     "JUnit.RechthoekTest.deLengteKanNietKleinerDanBreedteZijn.executor": "Run",
     "JUnit.RechthoekTest.deOmtrekVanEenRechtHoekVan4Op3Is14.executor": "Run",
@@ -113,13 +116,13 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="takenTest.taak5ISBN" />
       <recent name="takenTest.theorie" />
+      <recent name="takenTest.taak5ISBN" />
       <recent name="takenTest.taak4VeilingTest" />
       <recent name="be.vdab.theorie" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PersonenCSVMaker">
+  <component name="RunManager" selected="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief">
     <configuration name="PersonenCSVMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.PersonenCSVMaker" />
       <module name="Theorie" />
@@ -133,10 +136,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Theorie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Voorbeeld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.Voorbeeld" />
       <module name="Theorie" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersoonServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest.theorie" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.PersoonServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest.theorie" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.PersoonServiceTest" />
+      <option name="METHOD_NAME" value="deWeddeStandaardAfwijkingIsPositief" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,44 +195,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WoordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Theorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="takenTest.taak1WoordTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="takenTest.taak1WoordTest" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.taak1WoordTest.WoordTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WoordTest.legeWoordİsPalindroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Theorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="takenTest.taak1WoordTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="takenTest.taak1WoordTest" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.taak1WoordTest.WoordTest" />
-      <option name="METHOD_NAME" value="legeWoordİsPalindroom" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PersonenCSVMaker" />
+        <item itemvalue="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief" />
+        <item itemvalue="JUnit.PersoonServiceTest" />
         <item itemvalue="JUnit.StatistiekTest" />
-        <item itemvalue="JUnit.WoordTest" />
-        <item itemvalue="JUnit.WoordTest.legeWoordİsPalindroom" />
-        <item itemvalue="JUnit.All in Theorie" />
+        <item itemvalue="Application.PersonenCSVMaker" />
+        <item itemvalue="Application.Voorbeeld" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711128436283</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="5.dag Junit als ziek1">
+      <option name="closed" value="true" />
+      <created>1711375410097</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711375410097</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -301,7 +317,8 @@
     <MESSAGE value="3.dag Junit" />
     <MESSAGE value="4.dag Junit" />
     <MESSAGE value="4.dag Junit als ziek1" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.dag Junit als ziek1" />
+    <MESSAGE value="5.dag Junit als ziek1" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.dag Junit als ziek1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -315,11 +332,20 @@
           </properties>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/be/vdab/theorie/PersoonService.java</url>
+          <line>9</line>
+          <properties class="be.vdab.theorie.PersoonService" method="staandaardAfwijkingWeddes">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Theorie$StatistiekTest.ic" NAME="StatistiekTest Coverage Results" MODIFIED="1711373325713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Theorie$StatistiekTest.ic" NAME="StatistiekTest Coverage Results" MODIFIED="1711444995942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>takenTest.theorie.*</FILTER>
     </SUITE>
   </component>

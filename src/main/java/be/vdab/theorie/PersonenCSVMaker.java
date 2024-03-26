@@ -11,33 +11,31 @@ public class PersonenCSVMaker {
     private final static String[] VOORNAMEN =
             {"Arthur", "Noa", "Adam", "Louis", "Liam", "Emma", "Olivia",
                     "Louise", "Mila", "Alice"};
-    private final static String[] FAMİLİENAMEN =
-            { "Peeters","Janssens","Maes","Jakobs","Mertens","Willems","Claes",
-                    "Goossens","Wouters","Desmet"};
+    private final static String[] FAMILIENAMEN =
+            {"Peeters", "Janssens", "Maes", "Jakobs", "Mertens", "Willems", "Claes",
+                    "Goossens", "Wouters", "Desmet"};
     private final static Path BESTAND_PATH = Path.of("/data/personen.csv");
     private final static Path DIRECTORY_PATH = BESTAND_PATH.getParent();
 
     public static void main(String[] args) throws IOException {
-        if (!Files.isDirectory(DIRECTORY_PATH)){
+        if (!Files.isDirectory(DIRECTORY_PATH)) {
             Files.createDirectory(DIRECTORY_PATH);
         }
         Random random = new Random();
-        try(PrintWriter writer = new PrintWriter(Files.newBufferedWriter(BESTAND_PATH))){
-            for (int i = 1; i<10_000_000;i++){
+        try (PrintWriter writer = new PrintWriter(Files.newBufferedWriter(BESTAND_PATH))) {
+            for (int i = 1; i <= 10_000_000; i++) {
                 writer.print(i);
                 writer.print(',');
                 writer.print(VOORNAMEN[random.nextInt(VOORNAMEN.length)]);
                 writer.print(',');
-                writer.print(FAMİLİENAMEN[random.nextInt(FAMİLİENAMEN.length)]);
+                writer.print(FAMILIENAMEN[random.nextInt(FAMILIENAMEN.length)]);
                 writer.print(',');
                 writer.print(2000 + random.nextInt(3000));
-                writer.print(',');
-                writer.print(random.nextInt(100));
+                writer.print('.');
+                writer.println(random.nextInt(100));
                 System.out.printf("%,d\n", i);
             }
         }
         System.out.println("Bestand gemaakt");
-
-
     }
 }
