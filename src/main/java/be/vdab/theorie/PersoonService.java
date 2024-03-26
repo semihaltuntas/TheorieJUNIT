@@ -10,7 +10,6 @@ public class PersoonService {
     public PersoonService(PersoonRepository repository) {
         this.repository = repository;
     }
-
     public BigDecimal staandaardAfwijkingWeddes() {
         var weddes = repository.findAllWeddes();
         BigDecimal totaal = weddes.stream().reduce(BigDecimal.ZERO, (vorigTotaal, huidigeWedde) ->
