@@ -1,5 +1,6 @@
 package takenTest.theorie;
 
+import be.vdab.theorie.PersoonRepository;
 import be.vdab.theorie.PersoonService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -9,7 +10,7 @@ class PersoonServiceTest {
     private PersoonService service;
     @BeforeEach
     void beforeEach(){
-        service = new PersoonService();
+        service = new PersoonService(new PersoonRepository());
     }
     @Test
     void deWeddeStandaardAfwijkingIsPositief(){

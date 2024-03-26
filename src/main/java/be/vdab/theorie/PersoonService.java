@@ -5,7 +5,11 @@ import java.math.MathContext;
 import java.math.RoundingMode;
 
 public class PersoonService {
-    private final PersoonRepository repository = new PersoonRepository();
+    private final PersoonRepository repository ;
+
+    public PersoonService(PersoonRepository repository) {
+        this.repository = repository;
+    }
 
     public BigDecimal staandaardAfwijkingWeddes() {
         var weddes = repository.findAllWeddes();

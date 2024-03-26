@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="5.dag Junit als ziek1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/PersonenCSVMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/PersonenCSVMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/theorie/StatistiekTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/theorie/StatistiekTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/PersoonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/PersoonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/theorie/PersoonServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/theorie/PersoonServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,6 +41,7 @@
     "Application.Jaar.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PersonenCSVMaker.executor": "Run",
+    "Application.StandaardAfwijking.executor": "Run",
     "Application.Voorbeeld.executor": "Run",
     "JUnit.All in Theorie.executor": "Run",
     "JUnit.ConverterTest.executor": "Run",
@@ -122,7 +123,7 @@
       <recent name="be.vdab.theorie" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief">
+  <component name="RunManager" selected="Application.StandaardAfwijking">
     <configuration name="PersonenCSVMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.PersonenCSVMaker" />
       <module name="Theorie" />
@@ -136,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Voorbeeld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.Voorbeeld" />
+    <configuration name="StandaardAfwijking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.StandaardAfwijking" />
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
@@ -197,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief" />
+        <item itemvalue="Application.StandaardAfwijking" />
         <item itemvalue="JUnit.PersoonServiceTest" />
+        <item itemvalue="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief" />
         <item itemvalue="JUnit.StatistiekTest" />
         <item itemvalue="Application.PersonenCSVMaker" />
-        <item itemvalue="Application.Voorbeeld" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711375410097</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="5.dag Junit als ziek1">
+      <option name="closed" value="true" />
+      <created>1711467840066</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711467840066</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -334,8 +343,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/be/vdab/theorie/PersoonService.java</url>
-          <line>9</line>
-          <properties class="be.vdab.theorie.PersoonService" method="staandaardAfwijkingWeddes">
+          <line>11</line>
+          <properties class="be.vdab.theorie.PersoonService">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
