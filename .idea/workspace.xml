@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="5.dag Junit als ziek1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/PersoonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/PersoonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/theorie/PersoonServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/theorie/PersoonServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +92,7 @@
     "JUnit.VeilingTest.executor": "Run",
     "JUnit.VeilingTest.naEenBodVan10€IsHetHoogsteBod10€.executor": "Run",
     "JUnit.VeilingTest.naEenBodVan15€IsHetHooogsteBod13€.executor": "Run",
+    "JUnit.WoonplaatsServiceTest.maxAantalStreepjesInEenWoonplaats.executor": "Run",
     "JUnit.WoordTest.executor": "Run",
     "JUnit.WoordTest.legeWoordİsPalindroom.executor": "Run",
     "JUnit.be.vdab.theorie in Theorie.executor": "Run",
@@ -117,6 +116,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="takenTest.taak6DependencyInjection" />
       <recent name="takenTest.theorie" />
       <recent name="takenTest.taak5ISBN" />
       <recent name="takenTest.taak4VeilingTest" />
@@ -124,12 +124,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.StandaardAfwijking">
-    <configuration name="PersonenCSVMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.PersonenCSVMaker" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.taak6DependencyInjection.Main" />
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.theorie.*" />
+          <option name="PATTERN" value="be.vdab.taken.taak6DependencyInjection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,17 +181,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatistiekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WoonplaatsServiceTest.maxAantalStreepjesInEenWoonplaats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="PATTERN" value="takenTest.taak6DependencyInjection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="takenTest.theorie" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.StatistiekTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="takenTest.taak6DependencyInjection" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.taak6DependencyInjection.WoonplaatsServiceTest" />
+      <option name="METHOD_NAME" value="maxAantalStreepjesInEenWoonplaats" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,10 +200,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.StandaardAfwijking" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.WoonplaatsServiceTest.maxAantalStreepjesInEenWoonplaats" />
         <item itemvalue="JUnit.PersoonServiceTest" />
         <item itemvalue="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief" />
-        <item itemvalue="JUnit.StatistiekTest" />
-        <item itemvalue="Application.PersonenCSVMaker" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +319,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711467840066</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="5.dag Junit als ziek1">
+      <option name="closed" value="true" />
+      <created>1711469143104</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711469143104</updated>
+    </task>
+    <task id="LOCAL-00014" summary="5.dag Junit als ziek1">
+      <option name="closed" value="true" />
+      <created>1711469218121</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711469218121</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -340,15 +357,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/be/vdab/theorie/PersoonService.java</url>
-          <line>11</line>
-          <properties class="be.vdab.theorie.PersoonService">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
