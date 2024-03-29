@@ -28,7 +28,6 @@ class PersoonServiceTest {
     @BeforeEach
     void beforeEach(){
         service = new PersoonService(repository);
-
         when(repository.findAllWeddes()).thenReturn(
                 Stream.of(2, 4, 4, 4, 5, 5, 7, 9)
                         .map(getal -> BigDecimal.valueOf(getal))
