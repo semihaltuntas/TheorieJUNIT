@@ -1,8 +1,11 @@
+package be.vdab.theorie;
+
 import be.vdab.theorie.PersoonRepository;
 
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.stream.Stream;
+
 
 public class PersoonRepositoryStub extends PersoonRepository {
     @Override
@@ -11,4 +14,6 @@ public class PersoonRepositoryStub extends PersoonRepository {
                 .map(getal -> BigDecimal.valueOf(getal))
                 .toList();
     }
+
+
 }

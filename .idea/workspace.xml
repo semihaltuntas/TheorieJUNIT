@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="5.dag Junit als ziek1">
+    <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="6.dag Junit als ziek1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak6DependencyInjection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak6DependencyInjection/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/StandaardAfwijking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/StandaardAfwijking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersoonRepositoryStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/taak6DependencyInjection/WoonplaatsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/taak6DependencyInjection/WoonplaatsServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/theorie/PersoonServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/theorie/PersoonServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,83 +40,85 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Jaar.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.PersonenCSVMaker.executor": "Run",
-    "Application.StandaardAfwijking.executor": "Run",
-    "Application.Voorbeeld.executor": "Run",
-    "JUnit.All in Theorie.executor": "Run",
-    "JUnit.ConverterTest.executor": "Run",
-    "JUnit.ConverterTest.hondredInches254Centimeters.executor": "Run",
-    "JUnit.ConverterTest.tweeHonderdInchesIs508Centimeters.executor": "Run",
-    "JUnit.IsbnTest.correcteNummer.executor": "Run",
-    "JUnit.IsbnTest.executor": "Run",
-    "JUnit.IsbnTest.hetNummer0IsVerkeerd.executor": "Run",
-    "JUnit.IsbnTest.verkeerdeNummers.executor": "Run",
-    "JUnit.JaarTest.deHashCodeVanGelijkeJarenIsGelijk.executor": "Run",
-    "JUnit.JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkeljaar.executor": "Run",
-    "JUnit.JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkeljaar.executor": "Run",
-    "JUnit.JaarTest.eenJaarDeelbaarDoor4IsEenSchrikkeljaar.executor": "Run",
-    "JUnit.JaarTest.executor": "Run",
-    "JUnit.JaarTest.jarenMetEenVerschillendJaartalZijnGelijk.executor": "Run",
-    "JUnit.JaarTest.jarenMetHetzelfdeJaartalZijnGelijk.executor": "Run",
-    "JUnit.JaarTest.toStringGeeftHetJaarAlsTekst.executor": "Run",
-    "JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief.executor": "Run",
-    "JUnit.PersoonServiceTest.executor": "Run",
-    "JUnit.RechthoekTest.deHashCodeVanGelijke.executor": "Run",
-    "JUnit.RechthoekTest.deLengteKanNietKleinerDanBreedteZijn.executor": "Run",
-    "JUnit.RechthoekTest.deOmtrekVanEenRechtHoekVan4Op3Is14.executor": "Run",
-    "JUnit.RechthoekTest.eenNegatieveBreedteKanNietZijn.executor": "Run",
-    "JUnit.RechthoekTest.eenNegatieveLengteNietZijn.executor": "Run",
-    "JUnit.RechthoekTest.executor": "Run",
-    "JUnit.RechthoekTest.rechthoekEenHetzelfdeParameters.executor": "Run",
-    "JUnit.RechthoekTest.rechthoekEenVerschillendeParameters.executor": "Run",
-    "JUnit.RekeningTest.eenNieuweRekeningHeeftGeenStortingen.executor": "Run",
-    "JUnit.RekeningTest.executor": "Run",
-    "JUnit.RekeningTest.hetGestortBedragMagNietNegatifZijn.executor": "Run",
-    "JUnit.RekeningTest.hetGestorteBedragMagNietNullZijn.executor": "Run",
-    "JUnit.RekeningTest.hetSaldoVanEenNieuweRekeningIs0€.executor": "Run",
-    "JUnit.RekeningTest.nadatJe10€En1€En2€StortZijnDeStortingenGesorteerd1€En2€En10€.executor": "Run",
-    "JUnit.RekeningTest.nadatJe10€En1€StortHetSaldo11€.executor": "Run",
-    "JUnit.RekeningTest.nadatJe10€En1€StortZijnDeStortingen10€En1€.executor": "Run",
-    "JUnit.RekeningTest.nadatJe10€StortIsErEenStortingVan10€.executor": "Run",
-    "JUnit.RekeningTest.nadatJe10€StortIsHetSaldo10€.executor": "Run",
-    "JUnit.RekeningTest.stortMetNullKanNiet.executor": "Run",
-    "JUnit.RekeningnummerTest.BE02063588295840IsCorrect.executor": "Run",
-    "JUnit.RekeningnummerTest.BE72091012240115BevatEenVerkeerdeControleBerekening.executor": "Run",
-    "JUnit.RekeningnummerTest.correcteNummers.executor": "Run",
-    "JUnit.RekeningnummerTest.executor": "Run",
-    "JUnit.RekeningnummerTest.leegNummerIsVerkeerd.executor": "Run",
-    "JUnit.RekeningnummerTest.verkeerdeNummers.executor": "Run",
-    "JUnit.StatistiekTest.eenArrayElementMagNietNullBevatten.executor": "Run",
-    "JUnit.StatistiekTest.executor": "Coverage",
-    "JUnit.StatistiekTest.hetGemiddeldeVan0EnIs5.executor": "Run",
-    "JUnit.StatistiekTest.hetGemiddeldeVan70EnIs35.executor": "Run",
-    "JUnit.StatistiekTest.hetGemiddeldeVanNullKanJeNietBerekenen.executor": "Run",
-    "JUnit.VeilingTest.executor": "Run",
-    "JUnit.VeilingTest.naEenBodVan10€IsHetHoogsteBod10€.executor": "Run",
-    "JUnit.VeilingTest.naEenBodVan15€IsHetHooogsteBod13€.executor": "Run",
-    "JUnit.WoonplaatsServiceTest.maxAantalStreepjesInEenWoonplaats.executor": "Run",
-    "JUnit.WoordTest.executor": "Run",
-    "JUnit.WoordTest.legeWoordİsPalindroom.executor": "Run",
-    "JUnit.be.vdab.theorie in Theorie.executor": "Run",
-    "JUnit.taak3ArtikelTest.prijsExclusief30enBtwPercentage6Moet31komma8PrijsInclusiefZijn.executor": "Run",
-    "JUnit.theorie in Theorie.executor": "Run",
-    "Maven.Theorie [install].executor": "Run",
-    "Maven.Theorie [site].executor": "Run",
-    "Maven.Theorie [test].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/bio/Desktop/JavaFrank/Junit/Theorie"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Jaar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PersonenCSVMaker.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StandaardAfwijking.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Voorbeeld.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in Theorie.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConverterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConverterTest.hondredInches254Centimeters.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConverterTest.tweeHonderdInchesIs508Centimeters.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IsbnTest.correcteNummer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IsbnTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IsbnTest.hetNummer0IsVerkeerd.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IsbnTest.verkeerdeNummers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JaarTest.deHashCodeVanGelijkeJarenIsGelijk.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JaarTest.eenJaarDeelbaarDoor100IsGeenSchrikkeljaar.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JaarTest.eenJaarDeelbaarDoor400IsEenSchrikkeljaar.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JaarTest.eenJaarDeelbaarDoor4IsEenSchrikkeljaar.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JaarTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JaarTest.jarenMetEenVerschillendJaartalZijnGelijk.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JaarTest.jarenMetHetzelfdeJaartalZijnGelijk.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JaarTest.toStringGeeftHetJaarAlsTekst.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIs2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersoonServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RechthoekTest.deHashCodeVanGelijke.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RechthoekTest.deLengteKanNietKleinerDanBreedteZijn.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RechthoekTest.deOmtrekVanEenRechtHoekVan4Op3Is14.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RechthoekTest.eenNegatieveBreedteKanNietZijn.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RechthoekTest.eenNegatieveLengteNietZijn.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RechthoekTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RechthoekTest.rechthoekEenHetzelfdeParameters.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RechthoekTest.rechthoekEenVerschillendeParameters.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningTest.eenNieuweRekeningHeeftGeenStortingen.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningTest.hetGestortBedragMagNietNegatifZijn.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningTest.hetGestorteBedragMagNietNullZijn.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningTest.hetSaldoVanEenNieuweRekeningIs0€.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningTest.nadatJe10€En1€En2€StortZijnDeStortingenGesorteerd1€En2€En10€.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningTest.nadatJe10€En1€StortHetSaldo11€.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningTest.nadatJe10€En1€StortZijnDeStortingen10€En1€.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningTest.nadatJe10€StortIsErEenStortingVan10€.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningTest.nadatJe10€StortIsHetSaldo10€.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningTest.stortMetNullKanNiet.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningnummerTest.BE02063588295840IsCorrect.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningnummerTest.BE72091012240115BevatEenVerkeerdeControleBerekening.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningnummerTest.correcteNummers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningnummerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningnummerTest.leegNummerIsVerkeerd.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RekeningnummerTest.verkeerdeNummers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StatistiekTest.eenArrayElementMagNietNullBevatten.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StatistiekTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.StatistiekTest.hetGemiddeldeVan0EnIs5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StatistiekTest.hetGemiddeldeVan70EnIs35.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StatistiekTest.hetGemiddeldeVanNullKanJeNietBerekenen.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VeilingTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VeilingTest.naEenBodVan10€IsHetHoogsteBod10€.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VeilingTest.naEenBodVan15€IsHetHooogsteBod13€.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WoonplaatsServiceTest.eenWoonplaatsBevatMax5Streepjes.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WoonplaatsServiceTest.maxAantalStreepjesInEenWoonplaats.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WoordTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WoordTest.legeWoordİsPalindroom.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.be.vdab.theorie in Theorie.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.taak3ArtikelTest.prijsExclusief30enBtwPercentage6Moet31komma8PrijsInclusiefZijn.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.theorie in Theorie.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Theorie [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Theorie [site].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Theorie [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bio/Desktop/JavaFrank/Junit/Theorie&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -123,26 +131,13 @@
       <recent name="be.vdab.theorie" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StandaardAfwijking">
+  <component name="RunManager" selected="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.vdab.taken.taak6DependencyInjection.Main" />
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="be.vdab.taken.taak6DependencyInjection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StandaardAfwijking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.StandaardAfwijking" />
-      <module name="Theorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.vdab.theorie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,6 +160,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersoonServiceTest.deWeddeStandaardAfwijkingIs2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.theorie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest.theorie" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.theorie.PersoonServiceTest" />
+      <option name="METHOD_NAME" value="deWeddeStandaardAfwijkingIs2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
@@ -181,7 +192,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WoonplaatsServiceTest.maxAantalStreepjesInEenWoonplaats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WoonplaatsServiceTest.eenWoonplaatsBevatMax5Streepjes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
@@ -191,7 +202,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="takenTest.taak6DependencyInjection" />
       <option name="MAIN_CLASS_NAME" value="takenTest.taak6DependencyInjection.WoonplaatsServiceTest" />
-      <option name="METHOD_NAME" value="maxAantalStreepjesInEenWoonplaats" />
+      <option name="METHOD_NAME" value="eenWoonplaatsBevatMax5Streepjes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StandaardAfwijking" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.WoonplaatsServiceTest.maxAantalStreepjesInEenWoonplaats" />
-        <item itemvalue="JUnit.PersoonServiceTest" />
         <item itemvalue="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief" />
+        <item itemvalue="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIs2" />
+        <item itemvalue="JUnit.PersoonServiceTest" />
+        <item itemvalue="JUnit.WoonplaatsServiceTest.eenWoonplaatsBevatMax5Streepjes" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711469218121</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="6.dag Junit als ziek1">
+      <option name="closed" value="true" />
+      <created>1711554724248</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711554724249</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -344,7 +363,8 @@
     <MESSAGE value="4.dag Junit" />
     <MESSAGE value="4.dag Junit als ziek1" />
     <MESSAGE value="5.dag Junit als ziek1" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.dag Junit als ziek1" />
+    <MESSAGE value="6.dag Junit als ziek1" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.dag Junit als ziek1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
