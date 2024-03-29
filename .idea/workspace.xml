@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="6.dag Junit als ziek1">
+    <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="7.dag Junit als ziek1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak6DependencyInjection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak6DependencyInjection/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/PersoonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/CsvPersoonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/PersoonRepositoryStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/PersoonRepositoryStub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/StandaardAfwijking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/StandaardAfwijking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PersoonRepositoryStub.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/taak6DependencyInjection/WoonplaatsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/taak6DependencyInjection/WoonplaatsServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/theorie/PersoonServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/theorie/PersoonServiceTest.java" afterDir="false" />
     </list>
@@ -23,6 +23,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -123,6 +124,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="be.vdab.theorie" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="takenTest.taak6DependencyInjection" />
       <recent name="takenTest.theorie" />
@@ -131,13 +135,13 @@
       <recent name="be.vdab.theorie" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.vdab.taken.taak6DependencyInjection.Main" />
+  <component name="RunManager" selected="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIs2">
+    <configuration name="StandaardAfwijking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.theorie.StandaardAfwijking" />
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.vdab.taken.taak6DependencyInjection.*" />
+          <option name="PATTERN" value="be.vdab.theorie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief" />
         <item itemvalue="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIs2" />
-        <item itemvalue="JUnit.PersoonServiceTest" />
+        <item itemvalue="Application.StandaardAfwijking" />
+        <item itemvalue="JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief" />
         <item itemvalue="JUnit.WoonplaatsServiceTest.eenWoonplaatsBevatMax5Streepjes" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PersoonServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +358,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711554724249</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="7.dag Junit als ziek1">
+      <option name="closed" value="true" />
+      <created>1711708237146</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711708237146</updated>
+    </task>
+    <task id="LOCAL-00017" summary="7.dag Junit als ziek1">
+      <option name="closed" value="true" />
+      <created>1711708275434</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711708275434</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -364,7 +384,8 @@
     <MESSAGE value="4.dag Junit als ziek1" />
     <MESSAGE value="5.dag Junit als ziek1" />
     <MESSAGE value="6.dag Junit als ziek1" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.dag Junit als ziek1" />
+    <MESSAGE value="7.dag Junit als ziek1" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.dag Junit als ziek1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
