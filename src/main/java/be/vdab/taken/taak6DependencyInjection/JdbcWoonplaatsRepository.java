@@ -1,8 +1,5 @@
-package be.vdab.theorie;
+package be.vdab.taken.taak6DependencyInjection;
 
-import be.vdab.taken.taak6DependencyInjection.RepositoryException;
-
-import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -10,13 +7,13 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class JdbcPersoonRepository extends AbstractRepository implements PersoonRepository {
+public class JdbcWoonplaatsRepository extends AbstractRepository implements WoonplaatsRepository {
     @Override
-   public List<BigDecimal> findAllWeddes() {
-        ArrayList<BigDecimal> weddes = new ArrayList();
+    public List<String> findMetStreepjes() {
+        ArrayList<String> namen = new ArrayList<>();
         String sql = """
-                select wedde
-                from personen
+                SELECT * FROM woonplaatsen
+                where naam like '%-%'
                 """;
         try (Connection connection = super.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
@@ -24,13 +21,12 @@ public class JdbcPersoonRepository extends AbstractRepository implements Persoon
             connection.setAutoCommit(false);
             ResultSet result = statement.executeQuery();
             while (result.next()) {
-                weddes.add(result.getBigDecimal("wedde"));
+                namen.add(result.getString("naam"));
             }
             connection.commit();
-            return weddes;
+            return namen;
         } catch (SQLException ex) {
             throw new RepositoryException(ex);
         }
-
     }
 }
