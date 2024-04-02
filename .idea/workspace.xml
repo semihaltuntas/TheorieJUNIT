@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="7.dag Junit als ziek1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak6DependencyInjection/MainStreepjes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/CsvPersoonRepository.java" afterDir="false" />
+    <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="8.dag Junit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak6DependencyInjection/TxtWoonplaatsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak6DependencyInjection/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak6DependencyInjection/WoonplaatsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak6DependencyInjection/TxtWoonplaatsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak6DependencyInjection/WoonplaatsRepositoryStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak6DependencyInjection/WoonplaatsRepositoryStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/JdbcPersoonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/vdab/theorie/JdbcPersoonRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/takenTest/taak6DependencyInjection/WoonplaatsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/takenTest/taak6DependencyInjection/WoonplaatsServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +48,12 @@
     "JUnit.ConverterTest.executor": "Run",
     "JUnit.ConverterTest.hondredInches254Centimeters.executor": "Run",
     "JUnit.ConverterTest.tweeHonderdInchesIs508Centimeters.executor": "Run",
+    "JUnit.ExamPersoonTest.dezelfdeVoornaamBevat.executor": "Run",
+    "JUnit.ExamPersoonTest.eenLegeWaardeKanNiet.executor": "Run",
+    "JUnit.ExamPersoonTest.eenNullWaardeKanNiet.executor": "Run",
+    "JUnit.ExamPersoonTest.executor": "Run",
+    "JUnit.ExamPersoonTest.metSpatieToString.executor": "Run",
+    "JUnit.ExamPersoonTest.toStringSpatie.executor": "Run",
     "JUnit.IsbnTest.correcteNummer.executor": "Run",
     "JUnit.IsbnTest.executor": "Run",
     "JUnit.IsbnTest.hetNummer0IsVerkeerd.executor": "Run",
@@ -113,6 +113,7 @@
     "JUnit.WoordTest.legeWoordİsPalindroom.executor": "Run",
     "JUnit.be.vdab.theorie in Theorie.executor": "Run",
     "JUnit.taak3ArtikelTest.prijsExclusief30enBtwPercentage6Moet31komma8PrijsInclusiefZijn.executor": "Run",
+    "JUnit.taak8Periode.executor": "Run",
     "JUnit.theorie in Theorie.executor": "Run",
     "Maven.Theorie [install].executor": "Run",
     "Maven.Theorie [site].executor": "Run",
@@ -136,88 +137,88 @@
       <recent name="be.vdab.theorie" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="takenTest" />
       <recent name="takenTest.taak7WoordTeller" />
       <recent name="takenTest.taak6DependencyInjection" />
       <recent name="takenTest.theorie" />
       <recent name="takenTest.taak5ISBN" />
-      <recent name="takenTest.taak4VeilingTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WoordTellerTest">
-    <configuration name="WoordTellerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ExamPersoonTest.metSpatieToString">
+    <configuration name="ExamPersoonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="takenTest.taak7WoordTeller.*" />
+          <option name="PATTERN" value="takenTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="takenTest.taak7WoordTeller" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.taak7WoordTeller.WoordTellerTest" />
+      <option name="PACKAGE_NAME" value="takenTest" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.ExamPersoonTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WoordTellerTest.bevat0Woorden" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExamPersoonTest.dezelfdeVoornaamBevat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="takenTest.taak7WoordTeller.*" />
+          <option name="PATTERN" value="takenTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="takenTest.taak7WoordTeller" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.taak7WoordTeller.WoordTellerTest" />
-      <option name="METHOD_NAME" value="bevat0Woorden(java.lang.String)" />
+      <option name="PACKAGE_NAME" value="takenTest" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.ExamPersoonTest" />
+      <option name="METHOD_NAME" value="dezelfdeVoornaamBevat" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WoordTellerTest.bevat1Woord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExamPersoonTest.eenNullWaardeKanNiet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="takenTest.taak7WoordTeller.*" />
+          <option name="PATTERN" value="takenTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="takenTest.taak7WoordTeller" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.taak7WoordTeller.WoordTellerTest" />
-      <option name="METHOD_NAME" value="bevat1Woord(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WoordTellerTest.bevat2Woord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Theorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="takenTest.taak7WoordTeller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="takenTest.taak7WoordTeller" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.taak7WoordTeller.WoordTellerTest" />
-      <option name="METHOD_NAME" value="bevat2Woord(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WoordTellerTest.eenNullWaardeKanNiet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Theorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="takenTest.taak7WoordTeller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="takenTest.taak7WoordTeller" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.taak7WoordTeller.WoordTellerTest" />
+      <option name="PACKAGE_NAME" value="takenTest" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.ExamPersoonTest" />
       <option name="METHOD_NAME" value="eenNullWaardeKanNiet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamPersoonTest.metSpatieToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.ExamPersoonTest" />
+      <option name="METHOD_NAME" value="metSpatieToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamPersoonTest.toStringSpatie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.ExamPersoonTest" />
+      <option name="METHOD_NAME" value="toStringSpatie" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -225,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WoordTellerTest" />
-        <item itemvalue="JUnit.WoordTellerTest.bevat2Woord" />
-        <item itemvalue="JUnit.WoordTellerTest.bevat1Woord" />
-        <item itemvalue="JUnit.WoordTellerTest.bevat0Woorden" />
-        <item itemvalue="JUnit.WoordTellerTest.eenNullWaardeKanNiet" />
+        <item itemvalue="JUnit.ExamPersoonTest.metSpatieToString" />
+        <item itemvalue="JUnit.ExamPersoonTest" />
+        <item itemvalue="JUnit.ExamPersoonTest.toStringSpatie" />
+        <item itemvalue="JUnit.ExamPersoonTest.dezelfdeVoornaamBevat" />
+        <item itemvalue="JUnit.ExamPersoonTest.eenNullWaardeKanNiet" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711727453557</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="8.dag Junit">
+      <option name="closed" value="true" />
+      <created>1711985722271</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711985722271</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -404,7 +413,8 @@
     <MESSAGE value="5.dag Junit als ziek1" />
     <MESSAGE value="6.dag Junit als ziek1" />
     <MESSAGE value="7.dag Junit als ziek1" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.dag Junit als ziek1" />
+    <MESSAGE value="8.dag Junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.dag Junit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
