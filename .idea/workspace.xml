@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="8.dag Junit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/vdab/taken/taak6DependencyInjection/TxtWoonplaatsRepository.java" afterDir="false" />
+    <list default="true" id="a3ffd61b-fceb-4597-abc2-474b6a546a92" name="Changes" comment="Laatste dag Junit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +65,8 @@
     "JUnit.JaarTest.jarenMetEenVerschillendJaartalZijnGelijk.executor": "Run",
     "JUnit.JaarTest.jarenMetHetzelfdeJaartalZijnGelijk.executor": "Run",
     "JUnit.JaarTest.toStringGeeftHetJaarAlsTekst.executor": "Run",
+    "JUnit.PaswoordTest.Joske123IsEenCorrectPaswoord.executor": "Run",
+    "JUnit.PaswoordTest.executor": "Run",
     "JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIs2.executor": "Run",
     "JUnit.PersoonServiceTest.deWeddeStandaardAfwijkingIsPositief.executor": "Run",
     "JUnit.PersoonServiceTest.executor": "Run",
@@ -137,14 +138,14 @@
       <recent name="be.vdab.theorie" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="takenTest.taak9Paswoord" />
       <recent name="takenTest" />
       <recent name="takenTest.taak7WoordTeller" />
       <recent name="takenTest.taak6DependencyInjection" />
       <recent name="takenTest.theorie" />
-      <recent name="takenTest.taak5ISBN" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExamPersoonTest.metSpatieToString">
+  <component name="RunManager" selected="JUnit.PaswoordTest">
     <configuration name="ExamPersoonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Theorie" />
       <extension name="coverage">
@@ -156,38 +157,6 @@
       <option name="PACKAGE_NAME" value="takenTest" />
       <option name="MAIN_CLASS_NAME" value="takenTest.ExamPersoonTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExamPersoonTest.dezelfdeVoornaamBevat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Theorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="takenTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="takenTest" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.ExamPersoonTest" />
-      <option name="METHOD_NAME" value="dezelfdeVoornaamBevat" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExamPersoonTest.eenNullWaardeKanNiet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Theorie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="takenTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="takenTest" />
-      <option name="MAIN_CLASS_NAME" value="takenTest.ExamPersoonTest" />
-      <option name="METHOD_NAME" value="eenNullWaardeKanNiet" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,13 +193,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaswoordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.taak9Paswoord.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest.taak9Paswoord" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.taak9Paswoord.PaswoordTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaswoordTest.Joske123IsEenCorrectPaswoord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Theorie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takenTest.taak9Paswoord.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takenTest.taak9Paswoord" />
+      <option name="MAIN_CLASS_NAME" value="takenTest.taak9Paswoord.PaswoordTest" />
+      <option name="METHOD_NAME" value="Joske123IsEenCorrectPaswoord" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PaswoordTest" />
+        <item itemvalue="JUnit.PaswoordTest.Joske123IsEenCorrectPaswoord" />
         <item itemvalue="JUnit.ExamPersoonTest.metSpatieToString" />
         <item itemvalue="JUnit.ExamPersoonTest" />
         <item itemvalue="JUnit.ExamPersoonTest.toStringSpatie" />
-        <item itemvalue="JUnit.ExamPersoonTest.dezelfdeVoornaamBevat" />
-        <item itemvalue="JUnit.ExamPersoonTest.eenNullWaardeKanNiet" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +402,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711985722271</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Laatste dag Junit">
+      <option name="closed" value="true" />
+      <created>1712058371784</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1712058371784</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -414,7 +422,8 @@
     <MESSAGE value="6.dag Junit als ziek1" />
     <MESSAGE value="7.dag Junit als ziek1" />
     <MESSAGE value="8.dag Junit" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.dag Junit" />
+    <MESSAGE value="Laatste dag Junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laatste dag Junit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
